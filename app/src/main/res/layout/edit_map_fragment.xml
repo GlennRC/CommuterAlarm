@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EditMapFragment"
+    android:clipToPadding="false"
+
+     >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/direction_layout"
+        android:background="@android:color/white"
+        android:elevation="2dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/origin_auto"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/white"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="4dp"
+            android:elevation="2dp"
+            >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dest_auto"
+            android:layout_below="@+id/origin_auto"
+            android:background="@android:color/white"
+            android:layout_marginTop="2dp"
+            android:elevation="2dp"
+            >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/direction_layout"
+        android:background="@android:color/white"
+        >
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_done_24dp"
+        >
+    </android.support.design.widget.FloatingActionButton>
+</RelativeLayout>

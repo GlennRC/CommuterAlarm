@@ -1,0 +1,37 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=B6:59:C4:4E:10:B8:9D:97:81:DD:C0:D7:8A:FF:48:D8:F9:CE:42:A0%3Bcom.example.deana.maptest5
+
+    You can also add your credentials to an existing key, using this line:
+    B6:59:C4:4E:10:B8:9D:97:81:DD:C0:D7:8A:FF:48:D8:F9:CE:42:A0;com.example.deana.maptest5
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAHa0doIuZ9atZww3cGWckw_wrQCm4eHPw</string>
+</resources>
+
+    <!--Remember: the API key must be a server key. It won't work any other way.-->
+
+    <!--THE FOLLOWING API MUST BE ENABLED:
+        >BigQuery API
+        >Cloud Debugger API
+        >Debuglet Controller API
+        >Google Cloud Logging API
+        >Google Cloud SQL
+        >Google Cloud Storage
+        >Google Cloud Storage JSON API
+        >Google Maps Android API
+        >Google Maps Directions API
+        >Google Maps Distance Matrix API
+        >Google Maps Geolocation API
+        >Google Maps Road API
+        >Google Places API for Android
+     -->
